@@ -46,9 +46,9 @@ Modifier const juga menetapkan semua properti yang dimiliki sebuah object pada s
 
 ### Pembuatan Program Baru counter_7
 
-1. Membuat direktori baru dan menjalankan "flutter create tugas-mae"
+1. Membuat direktori baru dan menjalankan "flutter create counter_7"
 2. Membuat repositori baru yang bernama "pbp-flutter-tugas"
-3. Membuka file tugas-mae/lib/main.dart
+3. Membuka file counter_7/lib/main.dart
 
 ### Implementasi Decrement & Text Ganjil-Genap
 
@@ -64,7 +64,7 @@ Modifier const juga menetapkan semua properti yang dimiliki sebuah object pada s
     }
 ```
 
-2. Mengubah text yang sudah disediakan dengan if-else statement untuk menentukan apakah angka merupakan huruf Ganjil atau Genap
+2. Mengubah text yang sudah disediakan dengan if-else statement untuk menentukan apakah nilai merupakan angka Ganjil atau Genap
 
 ```shell
     children: <Widget>[
@@ -116,3 +116,13 @@ Modifier const juga menetapkan semua properti yang dimiliki sebuah object pada s
             ])),
     ;
 ```
+
+## Referensi
+
+- [Webiste PBP Ganjil 22/23](https://pbp-fasilkom-ui.github.io/ganjil-2023/)
+- [Change Text Color in Flutter - Flutter Beads](https://www.flutterbeads.com/change-text-color-in-flutter/)
+- [Difference Between Stateless and Stateful Widget in Flutter - Geeks for Geeks](https://www.geeksforgeeks.org/difference-between-stateless-and-stateful-widget-in-flutter/)
+- [Dart – Const And Final Keyword](https://www.geeksforgeeks.org/dart-const-and-final-keyword/)
+- [What is the Difference Between the const and final keywords In Dart? - Flutter Agency](https://flutteragency.com/difference-between-the-const-and-final-keywords/)
+- [Flutter – Row and Column Widgets - Geeks for Geeks](https://www.geeksforgeeks.org/row-and-column-widgets-in-flutter-with-example/#:~:text=Row%20and%20Column%20are%20the,vertically%20as%20per%20the%20requirement.)
+- [Flutter – AppBar Widget - Geeks for Geeks](https://www.geeksforgeeks.org/flutter-appbar-widget/#:~:text=AppBar%20is%20usually%20the%20topmost,or%20a%20combination%20of%20widgets.)
