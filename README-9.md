@@ -380,4 +380,4 @@ Namun, hal tersebut tidak lebih baik daripada membuat model karena dengan membua
 - [Future<T> class - Flutter Docs](https://api.flutter.dev/flutter/dart-async/Future-class.html)
 - [SizedBox class - Flutter Docs](https://api.flutter.dev/flutter/widgets/SizedBox-class.html)
 - [Navigator class - Flutter Docs](https://api.flutter.dev/flutter/widgets/Navigator-class.html#:~:text=Using%20the%20Navigator%20API&text=In%20Flutter%20these%20elements%20are,push%20and%20Navigator.)
-- [TextButton class - Flutter Docs](https://api.flutter.dev/flutter/material/TextButton-class.html)
+- [ElevatedButton class - Flutter Docs](https://api.flutter.dev/flutter/material/ElevatedButton-class.html)
