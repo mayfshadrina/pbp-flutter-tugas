@@ -80,15 +80,23 @@ class WatchlistDetail extends StatelessWidget {
               ),
               Row(
                 children: [
-                  const Text(
-                    "Review:  ",
-                    style: const TextStyle(
-                        fontSize: 16, fontWeight: FontWeight.bold),
-                  ),
-                  Text(
-                    watchList.review,
-                    style: const TextStyle(
-                        fontSize: 16, fontWeight: FontWeight.normal),
+                  Flexible(
+                    child: const Text(
+                      "Review:  ",
+                      style: const TextStyle(
+                          fontSize: 16, fontWeight: FontWeight.bold),
+                    ),
+                  )
+                ],
+              ),
+              Row(
+                children: [
+                  Flexible(
+                    child: Text(
+                      watchList.review,
+                      style: const TextStyle(
+                          fontSize: 16, fontWeight: FontWeight.normal),
+                    ),
                   )
                 ],
               ),

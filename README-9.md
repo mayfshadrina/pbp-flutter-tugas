@@ -29,6 +29,7 @@ Namun, hal tersebut tidak lebih baik daripada membuat model karena dengan membua
 11. SizedBox = Untuk membuat sebuha box (kotak) dengan ukuran yang spesifik
 12. ElevatedButton = Untuk membuat button yang terkesan "mengambang" atau terelevasi
 13. Navigator = Untuk mengimplementasikan stack pada screen aplikasi sehingga dapat berpindah-pindah screen dengan terstruktur
+14. Flexible = Untuk mengatur Row, Column, dan Flex agar konten di dalamnya menjadi lebih fleksibel untuk menyesuaikan dirinya dengan screen
 
 ## Implementasi Tugas 8
 
