@@ -1,6 +1,7 @@
 import 'package:counter_7/main.dart';
-import 'package:counter_7/form.dart';
-import 'package:counter_7/data.dart';
+import 'package:counter_7/page/form.dart';
+import 'package:counter_7/page/data.dart';
+import 'package:counter_7/page/watchlist_page.dart';
 import 'package:flutter/material.dart';
 
 Drawer makeDrawer(BuildContext context) {
@@ -37,6 +38,16 @@ Drawer makeDrawer(BuildContext context) {
               MaterialPageRoute(builder: (context) => const MyDataPage()),
             );
           },
+        ),
+        ListTile(
+            title: const Text('My Watchlist'),
+            onTap: () {
+                // Route menu ke halaman to do
+                Navigator.pushReplacement(
+                context,
+                MaterialPageRoute(builder: (context) => const ToDoPage()),
+                );
+            },
         ),
       ],
     ),
